@@ -1,0 +1,79 @@
+{
+  "app": {
+    "title": "Offline Quiz",
+    "loading": "Загрузка…",
+    "testsCount": "Тестов: {{count}}",
+    "checkNewTests": "Проверить новые тесты",
+    "offlineNoNetwork": "Нет подключения к интернету",
+    "install": "Установить приложение",
+    "iosInstallHint": "Safari: Поделиться → На экран «Домой»"
+  },
+  "nav": {
+    "home": "Главная",
+    "history": "История",
+    "settings": "Настройки"
+  },
+  "test": {
+    "builtin": "Встроенный",
+    "downloaded": "Скачанный",
+    "imported": "Импортированный",
+    "start": "Начать",
+    "questionOf": "Вопрос {{current}} из {{total}}",
+    "back": "Назад",
+    "forward": "Вперёд",
+    "finish": "Завершить тест",
+    "confirmFinish": "Осталось неотвеченных вопросов: {{count}}. Завершить?",
+    "timeLeft": "Осталось: {{seconds}} с"
+  },
+  "result": {
+    "title": "Результат",
+    "score": "Счёт: {{score}} / {{total}} ({{percent}}%)",
+    "correct": "Верно",
+    "incorrect": "Неверно",
+    "skipped": "Не отвечено",
+    "backHome": "На главную",
+    "yourAnswer": "Ваш ответ",
+    "correctAnswer": "Правильный ответ"
+  },
+  "catalog": {
+    "title": "Каталог тестов",
+    "available": "Доступен для скачивания",
+    "upToDate": "Уже загружен",
+    "downloadSelected": "Скачать выбранное",
+    "downloadAllNew": "Скачать все новые",
+    "downloading": "Загрузка {{current}} / {{total}}: {{title}}",
+    "historyWipeWarning": "При обновлении «{{title}}» история попыток будет удалена. Продолжить?",
+    "close": "Закрыть"
+  },
+  "history": {
+    "title": "История",
+    "empty": "Попыток пока нет",
+    "clear": "Очистить историю",
+    "clearConfirm": "Удалить всю историю попыток?",
+    "stats": "Попыток: {{count}}, средний: {{avg}}%, лучший: {{best}}%, худший: {{worst}}%",
+    "detail": "Детали попытки"
+  },
+  "settings": {
+    "title": "Настройки",
+    "theme": "Тема",
+    "themeLight": "Светлая",
+    "themeDark": "Тёмная",
+    "language": "Язык",
+    "catalogUrl": "Источник тестов",
+    "saveUrl": "Сохранить URL",
+    "import": "Импортировать тест из JSON",
+    "deleteAll": "Удалить все скачанные тесты и историю",
+    "deleteAllConfirm": "Удалить все тесты (кроме восстановления welcome) и историю?",
+    "reset": "Сбросить настройки до стандартных",
+    "resetConfirm": "Сбросить все настройки?",
+    "importOverwrite": "Тест с таким id уже есть. Перезаписать?",
+    "importHistoryWarning": "При перезаписи история попыток будет удалена.",
+    "urlError": "Некорректный URL"
+  },
+  "common": {
+    "cancel": "Отмена",
+    "confirm": "Подтвердить",
+    "ok": "OK",
+    "error": "Ошибка"
+  }
+}

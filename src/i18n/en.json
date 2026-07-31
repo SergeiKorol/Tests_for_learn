@@ -1,0 +1,79 @@
+{
+  "app": {
+    "title": "Offline Quiz",
+    "loading": "Loading…",
+    "testsCount": "Tests: {{count}}",
+    "checkNewTests": "Check for new tests",
+    "offlineNoNetwork": "No internet connection",
+    "install": "Install app",
+    "iosInstallHint": "Safari: Share → Add to Home Screen"
+  },
+  "nav": {
+    "home": "Home",
+    "history": "History",
+    "settings": "Settings"
+  },
+  "test": {
+    "builtin": "Built-in",
+    "downloaded": "Downloaded",
+    "imported": "Imported",
+    "start": "Start",
+    "questionOf": "Question {{current}} of {{total}}",
+    "back": "Back",
+    "forward": "Forward",
+    "finish": "Finish test",
+    "confirmFinish": "{{count}} unanswered question(s). Finish anyway?",
+    "timeLeft": "Time left: {{seconds}}s"
+  },
+  "result": {
+    "title": "Result",
+    "score": "Score: {{score}} / {{total}} ({{percent}}%)",
+    "correct": "Correct",
+    "incorrect": "Incorrect",
+    "skipped": "Unanswered",
+    "backHome": "Back to home",
+    "yourAnswer": "Your answer",
+    "correctAnswer": "Correct answer"
+  },
+  "catalog": {
+    "title": "Test catalog",
+    "available": "Available to download",
+    "upToDate": "Already downloaded",
+    "downloadSelected": "Download selected",
+    "downloadAllNew": "Download all new",
+    "downloading": "Downloading {{current}} / {{total}}: {{title}}",
+    "historyWipeWarning": "Updating «{{title}}» will delete attempt history. Continue?",
+    "close": "Close"
+  },
+  "history": {
+    "title": "History",
+    "empty": "No attempts yet",
+    "clear": "Clear history",
+    "clearConfirm": "Delete all attempt history?",
+    "stats": "Attempts: {{count}}, avg: {{avg}}%, best: {{best}}%, worst: {{worst}}%",
+    "detail": "Attempt details"
+  },
+  "settings": {
+    "title": "Settings",
+    "theme": "Theme",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "language": "Language",
+    "catalogUrl": "Test source URL",
+    "saveUrl": "Save URL",
+    "import": "Import test from JSON",
+    "deleteAll": "Delete all downloaded tests and history",
+    "deleteAllConfirm": "Delete all tests and history?",
+    "reset": "Reset settings to defaults",
+    "resetConfirm": "Reset all settings?",
+    "importOverwrite": "Test with this id exists. Overwrite?",
+    "importHistoryWarning": "Overwrite will delete attempt history.",
+    "urlError": "Invalid URL"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "ok": "OK",
+    "error": "Error"
+  }
+}
